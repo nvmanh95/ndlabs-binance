@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: binance-sharding-service
+  namespace: default
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: binance-sharding-service
+  template:
+    metadata:
+      labels:
+        app: binance-sharding-service
+    spec:
+      containers:
+        - name: binance-sharding-service
+          image: binance-sharding-service:latest
+          env:
+            - name: POD_NAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
+            - name: SPRING_REDIS_HOST
+              value: "redis-service"
+          ports:
+            - containerPort: 8080
+          livenessProbe:
+            httpGet:
+              path: /actuator/health
+              port: 8080
+            initialDelaySeconds: 15
+            periodSeconds: 10
