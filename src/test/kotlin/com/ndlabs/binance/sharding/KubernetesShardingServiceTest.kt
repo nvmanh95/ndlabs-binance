@@ -20,22 +20,14 @@ class KubernetesShardingServiceTest : ShouldSpec({
 
     val testInstance = KubernetesShardingService(config, api)
 
-
-    should("able to return current pod name") {
-        //given
-        val podName = "pod1"
-
-
-    }
-
-    should("anle to return ative instances") {
+    should("able to return ative instances") {
         //given
         val pod = mockk<V1Pod>()
         val podList = mockk<V1PodList>()
         val status = mockk<V1PodStatus>()
         val metaData = mockk<V1ObjectMeta>()
 
-        every { metaData.name } returns "podName"
+        every { metaData.name } returns "service-podname"
         every { status.phase } returns "Running"
         every { podList.items } returns listOf(pod)
         every { pod.metadata } returns metaData
@@ -47,7 +39,7 @@ class KubernetesShardingServiceTest : ShouldSpec({
                 null,
                 null,
                 null,
-                "app=${config.serviceName}",
+                null,
                 null,
                 null,
                 null,
@@ -60,6 +52,6 @@ class KubernetesShardingServiceTest : ShouldSpec({
         val result = testInstance.getActiveInstanceNames()
 
         //then
-        result shouldBe listOf("podName")
+        result shouldBe listOf("service-podname")
     }
 })

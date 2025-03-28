@@ -8,6 +8,7 @@ app:
   kafka:
     binance-trade-topic: binance-trading-pairs
     boostrap-server: localhost:29092
+    enable-idempotence-config: true
 
 spring:
   data:

@@ -1,0 +1,286 @@
+2025-03-28 10:55:19 ERROR [com.ndlabs.binance.service.TradingWebSocketHandler] [] Error establishing websocket for: tradeUrl, exception: null 
+2025-03-28 10:55:19 INFO  [com.ndlabs.binance.service.TradingWebSocketHandler] [] handling trading data: 4749038460 
+2025-03-28 10:59:02 ERROR [com.ndlabs.binance.service.TradingWebSocketHandler] [] Error establishing websocket for: tradeUrl, exception: null 
+2025-03-28 10:59:02 INFO  [com.ndlabs.binance.service.TradingWebSocketHandler] [] handling trading data: 4749038460 
+2025-03-28 11:22:06 ERROR [com.ndlabs.binance.service.TradingWebSocketHandler] [] Error establishing websocket for: tradeUrl, exception: null 
+2025-03-28 11:22:06 INFO  [com.ndlabs.binance.service.TradingWebSocketHandler] [] handling trading data: 4749038460 
+2025-03-28 11:22:53 ERROR [com.ndlabs.binance.service.TradingWebSocketHandler] [] Error establishing websocket for: tradeUrl, exception: null 
+2025-03-28 11:22:53 INFO  [com.ndlabs.binance.service.TradingWebSocketHandler] [] handling trading data: 4749038460 
+2025-03-28 11:28:21 INFO  [com.ndlabs.binance.BinanceApplicationKt] [] Starting BinanceApplicationKt using Java 21.0.5 with PID 12900 (C:\Users\manh596\Desktop\ndlabs-binance\build\classes\kotlin\main started by manh596 in C:\Users\manh596\Desktop\ndlabs-binance) 
+2025-03-28 11:28:21 INFO  [com.ndlabs.binance.BinanceApplicationKt] [] No active profile set, falling back to 1 default profile: "default" 
+2025-03-28 11:28:22 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [] Multiple Spring Data modules found, entering strict repository configuration mode 
+2025-03-28 11:28:22 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [] Bootstrapping Spring Data Redis repositories in DEFAULT mode. 
+2025-03-28 11:28:22 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [] Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces. 
+2025-03-28 11:28:22 INFO  [org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor] [] No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created. 
+2025-03-28 11:28:22 INFO  [org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor] [] No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created. 
+2025-03-28 11:28:23 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [] Tomcat initialized with port 8080 (http) 
+2025-03-28 11:28:23 INFO  [org.apache.coyote.http11.Http11NioProtocol] [] Initializing ProtocolHandler ["http-nio-8080"] 
+2025-03-28 11:28:23 INFO  [org.apache.catalina.core.StandardService] [] Starting service [Tomcat] 
+2025-03-28 11:28:23 INFO  [org.apache.catalina.core.StandardEngine] [] Starting Servlet engine: [Apache Tomcat/10.1.39] 
+2025-03-28 11:28:23 INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [] Initializing Spring embedded WebApplicationContext 
+2025-03-28 11:28:23 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [] Root WebApplicationContext: initialization completed in 2671 ms 
+2025-03-28 11:28:26 INFO  [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [] Exposing 3 endpoints beneath base path '/actuator' 
+2025-03-28 11:28:26 INFO  [org.springframework.integration.endpoint.EventDrivenConsumer] [] Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel 
+2025-03-28 11:28:26 INFO  [org.springframework.integration.channel.PublishSubscribeChannel] [] Channel 'application.errorChannel' has 1 subscriber(s). 
+2025-03-28 11:28:26 INFO  [org.springframework.integration.endpoint.EventDrivenConsumer] [] started bean '_org.springframework.integration.errorLogger' 
+2025-03-28 11:28:26 INFO  [org.apache.coyote.http11.Http11NioProtocol] [] Starting ProtocolHandler ["http-nio-8080"] 
+2025-03-28 11:28:26 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [] Tomcat started on port 8080 (http) with context path '/' 
+2025-03-28 11:28:26 INFO  [com.ndlabs.binance.BinanceApplicationKt] [] Started BinanceApplicationKt in 6.276 seconds (process running for 7.647) 
+2025-03-28 11:28:26 INFO  [com.ndlabs.binance.BinanceApplicationRunner] [] Starting Binance Sharding Service 
+2025-03-28 11:31:01 INFO  [org.springframework.boot.web.embedded.tomcat.GracefulShutdown] [] Commencing graceful shutdown. Waiting for active requests to complete 
+2025-03-28 11:31:01 INFO  [org.springframework.boot.web.embedded.tomcat.GracefulShutdown] [] Graceful shutdown complete 
+2025-03-28 11:31:01 INFO  [org.springframework.integration.endpoint.EventDrivenConsumer] [] Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel 
+2025-03-28 11:31:01 INFO  [org.springframework.integration.channel.PublishSubscribeChannel] [] Channel 'application.errorChannel' has 0 subscriber(s). 
+2025-03-28 11:31:01 INFO  [org.springframework.integration.endpoint.EventDrivenConsumer] [] stopped bean '_org.springframework.integration.errorLogger' 
+2025-03-28 11:31:05 INFO  [com.ndlabs.binance.BinanceApplicationKt] [] Starting BinanceApplicationKt using Java 21.0.5 with PID 15628 (C:\Users\manh596\Desktop\ndlabs-binance\build\classes\kotlin\main started by manh596 in C:\Users\manh596\Desktop\ndlabs-binance) 
+2025-03-28 11:31:05 INFO  [com.ndlabs.binance.BinanceApplicationKt] [] No active profile set, falling back to 1 default profile: "default" 
+2025-03-28 11:31:07 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [] Multiple Spring Data modules found, entering strict repository configuration mode 
+2025-03-28 11:31:07 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [] Bootstrapping Spring Data Redis repositories in DEFAULT mode. 
+2025-03-28 11:31:07 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [] Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces. 
+2025-03-28 11:31:07 INFO  [org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor] [] No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created. 
+2025-03-28 11:31:07 INFO  [org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor] [] No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created. 
+2025-03-28 11:31:07 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [] Tomcat initialized with port 8080 (http) 
+2025-03-28 11:31:07 INFO  [org.apache.coyote.http11.Http11NioProtocol] [] Initializing ProtocolHandler ["http-nio-8080"] 
+2025-03-28 11:31:07 INFO  [org.apache.catalina.core.StandardService] [] Starting service [Tomcat] 
+2025-03-28 11:31:07 INFO  [org.apache.catalina.core.StandardEngine] [] Starting Servlet engine: [Apache Tomcat/10.1.39] 
+2025-03-28 11:31:07 INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [] Initializing Spring embedded WebApplicationContext 
+2025-03-28 11:31:07 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [] Root WebApplicationContext: initialization completed in 1856 ms 
+2025-03-28 11:31:09 INFO  [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [] Exposing 3 endpoints beneath base path '/actuator' 
+2025-03-28 11:31:09 INFO  [org.springframework.integration.endpoint.EventDrivenConsumer] [] Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel 
+2025-03-28 11:31:09 INFO  [org.springframework.integration.channel.PublishSubscribeChannel] [] Channel 'application.errorChannel' has 1 subscriber(s). 
+2025-03-28 11:31:09 INFO  [org.springframework.integration.endpoint.EventDrivenConsumer] [] started bean '_org.springframework.integration.errorLogger' 
+2025-03-28 11:31:09 INFO  [org.apache.coyote.http11.Http11NioProtocol] [] Starting ProtocolHandler ["http-nio-8080"] 
+2025-03-28 11:31:09 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [] Tomcat started on port 8080 (http) with context path '/' 
+2025-03-28 11:31:10 INFO  [com.ndlabs.binance.BinanceApplicationKt] [] Started BinanceApplicationKt in 4.541 seconds (process running for 5.812) 
+2025-03-28 11:31:10 INFO  [com.ndlabs.binance.BinanceApplicationRunner] [] Starting Binance Sharding Service 
+2025-03-28 11:32:08 INFO  [org.springframework.boot.web.embedded.tomcat.GracefulShutdown] [] Commencing graceful shutdown. Waiting for active requests to complete 
+2025-03-28 11:32:08 INFO  [org.springframework.boot.web.embedded.tomcat.GracefulShutdown] [] Graceful shutdown complete 
+2025-03-28 11:32:08 INFO  [org.springframework.integration.endpoint.EventDrivenConsumer] [] Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel 
+2025-03-28 11:32:08 INFO  [org.springframework.integration.channel.PublishSubscribeChannel] [] Channel 'application.errorChannel' has 0 subscriber(s). 
+2025-03-28 11:32:08 INFO  [org.springframework.integration.endpoint.EventDrivenConsumer] [] stopped bean '_org.springframework.integration.errorLogger' 
+2025-03-28 11:32:12 INFO  [com.ndlabs.binance.BinanceApplicationKt] [] Starting BinanceApplicationKt using Java 21.0.5 with PID 27252 (C:\Users\manh596\Desktop\ndlabs-binance\build\classes\kotlin\main started by manh596 in C:\Users\manh596\Desktop\ndlabs-binance) 
+2025-03-28 11:32:12 INFO  [com.ndlabs.binance.BinanceApplicationKt] [] No active profile set, falling back to 1 default profile: "default" 
+2025-03-28 11:32:13 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [] Multiple Spring Data modules found, entering strict repository configuration mode 
+2025-03-28 11:32:13 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [] Bootstrapping Spring Data Redis repositories in DEFAULT mode. 
+2025-03-28 11:32:13 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [] Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces. 
+2025-03-28 11:32:14 INFO  [org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor] [] No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created. 
+2025-03-28 11:32:14 INFO  [org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor] [] No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created. 
+2025-03-28 11:32:14 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [] Tomcat initialized with port 8080 (http) 
+2025-03-28 11:32:14 INFO  [org.apache.coyote.http11.Http11NioProtocol] [] Initializing ProtocolHandler ["http-nio-8080"] 
+2025-03-28 11:32:14 INFO  [org.apache.catalina.core.StandardService] [] Starting service [Tomcat] 
+2025-03-28 11:32:14 INFO  [org.apache.catalina.core.StandardEngine] [] Starting Servlet engine: [Apache Tomcat/10.1.39] 
+2025-03-28 11:32:14 INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [] Initializing Spring embedded WebApplicationContext 
+2025-03-28 11:32:14 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [] Root WebApplicationContext: initialization completed in 2095 ms 
+2025-03-28 11:32:17 INFO  [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [] Exposing 3 endpoints beneath base path '/actuator' 
+2025-03-28 11:32:17 INFO  [org.springframework.integration.endpoint.EventDrivenConsumer] [] Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel 
+2025-03-28 11:32:17 INFO  [org.springframework.integration.channel.PublishSubscribeChannel] [] Channel 'application.errorChannel' has 1 subscriber(s). 
+2025-03-28 11:32:17 INFO  [org.springframework.integration.endpoint.EventDrivenConsumer] [] started bean '_org.springframework.integration.errorLogger' 
+2025-03-28 11:32:17 INFO  [org.apache.coyote.http11.Http11NioProtocol] [] Starting ProtocolHandler ["http-nio-8080"] 
+2025-03-28 11:32:17 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [] Tomcat started on port 8080 (http) with context path '/' 
+2025-03-28 11:32:17 INFO  [com.ndlabs.binance.BinanceApplicationKt] [] Started BinanceApplicationKt in 5.204 seconds (process running for 6.099) 
+2025-03-28 11:32:17 INFO  [com.ndlabs.binance.BinanceApplicationRunner] [] Starting Binance Sharding Service 
+2025-03-28 11:32:18 ERROR [com.ndlabs.binance.sharding.KubernetesShardingService] [] Unable to establish watch for namespace: default from pod: unknown-pod 
+2025-03-28 11:32:18 INFO  [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger] [] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled. 
+2025-03-28 11:32:18 ERROR [org.springframework.boot.SpringApplication] [] Application run failed 
+com.ndlabs.binance.exception.KubernetesShardingException: Unable to establish watch for namespace: default from pod: unknown-pod, cause: Unable to connect to Redis
+	at com.ndlabs.binance.sharding.KubernetesShardingService.watch(ShardingService.kt:74)
+	at com.ndlabs.binance.BinanceApplicationRunner.run(BinanceApplicationRunner.kt:28)
+	at org.springframework.boot.SpringApplication.lambda$callRunner$4(SpringApplication.java:784)
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82)
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:796)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:784)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:772)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:772)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.ndlabs.binance.BinanceApplicationKt.main(BinanceApplication.kt:13)
+2025-03-28 11:32:18 INFO  [org.springframework.boot.web.embedded.tomcat.GracefulShutdown] [] Commencing graceful shutdown. Waiting for active requests to complete 
+2025-03-28 11:32:18 INFO  [org.springframework.boot.web.embedded.tomcat.GracefulShutdown] [] Graceful shutdown complete 
+2025-03-28 11:32:18 INFO  [org.springframework.integration.endpoint.EventDrivenConsumer] [] Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel 
+2025-03-28 11:32:18 INFO  [org.springframework.integration.channel.PublishSubscribeChannel] [] Channel 'application.errorChannel' has 0 subscriber(s). 
+2025-03-28 11:32:18 INFO  [org.springframework.integration.endpoint.EventDrivenConsumer] [] stopped bean '_org.springframework.integration.errorLogger' 
+2025-03-28 11:32:58 ERROR [com.ndlabs.binance.service.TradingWebSocketHandler] [] Error establishing websocket for: tradeUrl, exception: null 
+2025-03-28 11:32:58 INFO  [com.ndlabs.binance.service.TradingWebSocketHandler] [] handling trading data: 4749038460 
+2025-03-28 11:37:29 ERROR [com.ndlabs.binance.service.TradingWebSocketHandler] [] Error establishing websocket for: tradeUrl, exception: null 
+2025-03-28 11:37:29 INFO  [com.ndlabs.binance.service.TradingWebSocketHandler] [] handling trading data: 4749038460 
+2025-03-28 11:39:22 ERROR [com.ndlabs.binance.service.TradingWebSocketHandler] [] Error establishing websocket for: tradeUrl, exception: null 
+2025-03-28 11:39:22 INFO  [com.ndlabs.binance.service.TradingWebSocketHandler] [] handling trading data: 4749038460 
+2025-03-28 11:45:55 ERROR [com.ndlabs.binance.service.TradingWebSocketHandler] [] Error establishing websocket for: tradeUrl, exception: null 
+2025-03-28 11:45:55 INFO  [com.ndlabs.binance.service.TradingWebSocketHandler] [] handling trading data: 4749038460 
+2025-03-28 11:57:50 ERROR [com.ndlabs.binance.service.TradingWebSocketHandler] [] Error establishing websocket for: tradeUrl, exception: null 
+2025-03-28 11:57:50 INFO  [com.ndlabs.binance.service.TradingWebSocketHandler] [] handling trading data: 4749038460 
+2025-03-28 12:03:56 ERROR [com.ndlabs.binance.service.TradingWebSocketHandler] [] Error establishing websocket for: tradeUrl, exception: null 
+2025-03-28 12:03:56 INFO  [com.ndlabs.binance.service.TradingWebSocketHandler] [] handling trading data: 4749038460 
+2025-03-28 12:03:58 ERROR [com.ndlabs.binance.sharding.KubernetesShardingService] [] Error fetching active pods, exception: no answer found for CoreV1Api(#15).listNamespacedPod(kubernetes, null, null, null, null, null, null, null, null, null, null) among the configured answers: (CoreV1Api(#15).listNamespacedPod(eq(kubernetes), null(), null(), null(), null(), eq(app=service), null(), null(), null(), null(), null()))) 
+2025-03-28 12:08:05 ERROR [com.ndlabs.binance.service.TradingWebSocketHandler] [] Error establishing websocket for: tradeUrl, exception: null 
+2025-03-28 12:08:05 INFO  [com.ndlabs.binance.service.TradingWebSocketHandler] [] handling trading data: 4749038460 
+2025-03-28 12:09:05 ERROR [com.ndlabs.binance.service.TradingWebSocketHandler] [] Error establishing websocket for: tradeUrl, exception: null 
+2025-03-28 12:09:05 INFO  [com.ndlabs.binance.service.TradingWebSocketHandler] [] handling trading data: 4749038460 
+2025-03-28 12:12:21 ERROR [com.ndlabs.binance.service.TradingWebSocketHandler] [] Error establishing websocket for: tradeUrl, exception: null 
+2025-03-28 12:12:22 INFO  [com.ndlabs.binance.service.TradingWebSocketHandler] [] handling trading data: 4749038460 
+2025-03-28 12:17:01 ERROR [com.ndlabs.binance.service.TradingWebSocketHandler] [] Error establishing websocket for: tradeUrl, exception: null 
+2025-03-28 12:17:02 INFO  [com.ndlabs.binance.service.TradingWebSocketHandler] [] handling trading data: 4749038460 
+2025-03-28 12:57:04 ERROR [com.ndlabs.binance.service.TradingWebSocketHandler] [] Error establishing websocket for: tradeUrl, exception: null 
+2025-03-28 12:57:04 INFO  [com.ndlabs.binance.service.TradingWebSocketHandler] [] handling trading data: 4749038460 
+2025-03-28 13:01:03 ERROR [com.ndlabs.binance.service.TradingWebSocketHandler] [] Error establishing websocket for: tradeUrl, exception: null 
+2025-03-28 13:01:03 INFO  [com.ndlabs.binance.service.TradingWebSocketHandler] [] handling trading data: 4749038460 
+2025-03-28 13:18:23 ERROR [com.ndlabs.binance.service.TradingWebSocketHandler] [] Error establishing websocket for: tradeUrl, exception: null 
+2025-03-28 13:18:23 INFO  [com.ndlabs.binance.service.TradingWebSocketHandler] [] handling trading data: 4749038460 
+2025-03-28 13:20:05 INFO  [com.ndlabs.binance.BinanceApplicationKt] [] Starting BinanceApplicationKt using Java 21.0.5 with PID 30928 (C:\Users\manh596\Desktop\ndlabs-binance\build\classes\kotlin\main started by manh596 in C:\Users\manh596\Desktop\ndlabs-binance) 
+2025-03-28 13:20:05 INFO  [com.ndlabs.binance.BinanceApplicationKt] [] No active profile set, falling back to 1 default profile: "default" 
+2025-03-28 13:20:06 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [] Multiple Spring Data modules found, entering strict repository configuration mode 
+2025-03-28 13:20:06 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [] Bootstrapping Spring Data Redis repositories in DEFAULT mode. 
+2025-03-28 13:20:06 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces. 
+2025-03-28 13:20:07 INFO  [org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor] [] No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created. 
+2025-03-28 13:20:07 INFO  [org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor] [] No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created. 
+2025-03-28 13:20:07 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [] Tomcat initialized with port 8080 (http) 
+2025-03-28 13:20:07 INFO  [org.apache.coyote.http11.Http11NioProtocol] [] Initializing ProtocolHandler ["http-nio-8080"] 
+2025-03-28 13:20:07 INFO  [org.apache.catalina.core.StandardService] [] Starting service [Tomcat] 
+2025-03-28 13:20:07 INFO  [org.apache.catalina.core.StandardEngine] [] Starting Servlet engine: [Apache Tomcat/10.1.39] 
+2025-03-28 13:20:07 INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [] Initializing Spring embedded WebApplicationContext 
+2025-03-28 13:20:07 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [] Root WebApplicationContext: initialization completed in 2169 ms 
+2025-03-28 13:20:08 WARN  [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'binanceApplicationRunner' defined in file [C:\Users\manh596\Desktop\ndlabs-binance\build\classes\kotlin\main\com\ndlabs\binance\BinanceApplicationRunner.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'redisTradingPairDistributionService' defined in file [C:\Users\manh596\Desktop\ndlabs-binance\build\classes\kotlin\main\com\ndlabs\binance\sharding\RedisTradingPairDistributionService.class]: Unsatisfied dependency expressed through constructor parameter 2: Error creating bean with name 'kubernetesShardingService' defined in file [C:\Users\manh596\Desktop\ndlabs-binance\build\classes\kotlin\main\com\ndlabs\binance\sharding\KubernetesShardingService.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'coreV1Api' defined in class path resource [com/ndlabs/binance/configuration/KubernetesConfiguration.class]: Unsatisfied dependency expressed through method 'coreV1Api' parameter 0: Error creating bean with name 'apiClient' defined in class path resource [com/ndlabs/binance/configuration/KubernetesConfiguration.class]: Failed to instantiate [io.kubernetes.client.openapi.ApiClient]: Factory method 'apiClient' threw exception with message: No server in kubeconfig 
+2025-03-28 13:20:08 INFO  [org.apache.catalina.core.StandardService] [] Stopping service [Tomcat] 
+2025-03-28 13:20:08 INFO  [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger] [] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled. 
+2025-03-28 13:20:08 ERROR [org.springframework.boot.SpringApplication] [] Application run failed 
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'binanceApplicationRunner' defined in file [C:\Users\manh596\Desktop\ndlabs-binance\build\classes\kotlin\main\com\ndlabs\binance\BinanceApplicationRunner.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'redisTradingPairDistributionService' defined in file [C:\Users\manh596\Desktop\ndlabs-binance\build\classes\kotlin\main\com\ndlabs\binance\sharding\RedisTradingPairDistributionService.class]: Unsatisfied dependency expressed through constructor parameter 2: Error creating bean with name 'kubernetesShardingService' defined in file [C:\Users\manh596\Desktop\ndlabs-binance\build\classes\kotlin\main\com\ndlabs\binance\sharding\KubernetesShardingService.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'coreV1Api' defined in class path resource [com/ndlabs/binance/configuration/KubernetesConfiguration.class]: Unsatisfied dependency expressed through method 'coreV1Api' parameter 0: Error creating bean with name 'apiClient' defined in class path resource [com/ndlabs/binance/configuration/KubernetesConfiguration.class]: Failed to instantiate [io.kubernetes.client.openapi.ApiClient]: Factory method 'apiClient' threw exception with message: No server in kubeconfig
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1381)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1155)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1121)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1056)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.ndlabs.binance.BinanceApplicationKt.main(BinanceApplication.kt:13)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTradingPairDistributionService' defined in file [C:\Users\manh596\Desktop\ndlabs-binance\build\classes\kotlin\main\com\ndlabs\binance\sharding\RedisTradingPairDistributionService.class]: Unsatisfied dependency expressed through constructor parameter 2: Error creating bean with name 'kubernetesShardingService' defined in file [C:\Users\manh596\Desktop\ndlabs-binance\build\classes\kotlin\main\com\ndlabs\binance\sharding\KubernetesShardingService.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'coreV1Api' defined in class path resource [com/ndlabs/binance/configuration/KubernetesConfiguration.class]: Unsatisfied dependency expressed through method 'coreV1Api' parameter 0: Error creating bean with name 'apiClient' defined in class path resource [com/ndlabs/binance/configuration/KubernetesConfiguration.class]: Failed to instantiate [io.kubernetes.client.openapi.ApiClient]: Factory method 'apiClient' threw exception with message: No server in kubeconfig
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1381)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1667)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1555)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 21 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'kubernetesShardingService' defined in file [C:\Users\manh596\Desktop\ndlabs-binance\build\classes\kotlin\main\com\ndlabs\binance\sharding\KubernetesShardingService.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'coreV1Api' defined in class path resource [com/ndlabs/binance/configuration/KubernetesConfiguration.class]: Unsatisfied dependency expressed through method 'coreV1Api' parameter 0: Error creating bean with name 'apiClient' defined in class path resource [com/ndlabs/binance/configuration/KubernetesConfiguration.class]: Failed to instantiate [io.kubernetes.client.openapi.ApiClient]: Factory method 'apiClient' threw exception with message: No server in kubeconfig
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1381)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1667)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1555)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 35 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'coreV1Api' defined in class path resource [com/ndlabs/binance/configuration/KubernetesConfiguration.class]: Unsatisfied dependency expressed through method 'coreV1Api' parameter 0: Error creating bean with name 'apiClient' defined in class path resource [com/ndlabs/binance/configuration/KubernetesConfiguration.class]: Failed to instantiate [io.kubernetes.client.openapi.ApiClient]: Factory method 'apiClient' threw exception with message: No server in kubeconfig
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1361)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1667)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1555)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 49 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'apiClient' defined in class path resource [com/ndlabs/binance/configuration/KubernetesConfiguration.class]: Failed to instantiate [io.kubernetes.client.openapi.ApiClient]: Factory method 'apiClient' threw exception with message: No server in kubeconfig
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:489)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1361)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1609)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1555)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 63 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [io.kubernetes.client.openapi.ApiClient]: Factory method 'apiClient' threw exception with message: No server in kubeconfig
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:199)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:88)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:168)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 76 common frames omitted
+Caused by: java.lang.IllegalArgumentException: No server in kubeconfig
+	at io.kubernetes.client.util.ClientBuilder.kubeconfig(ClientBuilder.java:280)
+	at io.kubernetes.client.util.ClientBuilder.getClientBuilder(ClientBuilder.java:129)
+	at io.kubernetes.client.util.ClientBuilder.standard(ClientBuilder.java:108)
+	at io.kubernetes.client.util.ClientBuilder.standard(ClientBuilder.java:100)
+	at io.kubernetes.client.util.Config.defaultClient(Config.java:114)
+	at com.ndlabs.binance.configuration.KubernetesConfiguration.apiClient(KubernetesConfiguration.kt:16)
+	at com.ndlabs.binance.configuration.KubernetesConfiguration$$SpringCGLIB$$0.CGLIB$apiClient$0(<generated>)
+	at com.ndlabs.binance.configuration.KubernetesConfiguration$$SpringCGLIB$$FastClass$$1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:370)
+	at com.ndlabs.binance.configuration.KubernetesConfiguration$$SpringCGLIB$$0.apiClient(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:171)
+	... 79 common frames omitted
+2025-03-28 13:46:41 ERROR [com.ndlabs.binance.service.TradingWebSocketHandler] [] Error establishing websocket for: tradeUrl, exception: null 
+2025-03-28 13:46:41 INFO  [com.ndlabs.binance.service.TradingWebSocketHandler] [] handling trading data: 4749038460 
+2025-03-28 13:57:30 ERROR [com.ndlabs.binance.service.TradingWebSocketHandler] [] Error establishing websocket for: tradeUrl, exception: null 
+2025-03-28 13:57:30 INFO  [com.ndlabs.binance.service.TradingWebSocketHandler] [] handling trading data: 4749038460 
+2025-03-28 14:17:50 ERROR [com.ndlabs.binance.service.TradingWebSocketHandler] [] Error establishing websocket for: tradeUrl, exception: null 
+2025-03-28 14:17:50 INFO  [com.ndlabs.binance.service.TradingWebSocketHandler] [] handling trading data: 4749038460 
+2025-03-28 14:43:00 ERROR [com.ndlabs.binance.service.TradingWebSocketHandler] [] Error establishing websocket for: tradeUrl, exception: null 
+2025-03-28 14:43:01 INFO  [com.ndlabs.binance.service.TradingWebSocketHandler] [] handling trading data: 4749038460 
+2025-03-28 15:19:52 ERROR [com.ndlabs.binance.service.TradingWebSocketHandler] [] Error establishing websocket for: tradeUrl, exception: null 
+2025-03-28 15:19:52 INFO  [com.ndlabs.binance.service.TradingWebSocketHandler] [] handling trading data: 4749038460 
+2025-03-28 15:26:03 ERROR [com.ndlabs.binance.service.TradingWebSocketHandler] [] Error establishing websocket for: tradeUrl, exception: null 
+2025-03-28 15:26:03 INFO  [com.ndlabs.binance.service.TradingWebSocketHandler] [] handling trading data: 4749038460 
+2025-03-28 17:43:01 ERROR [com.ndlabs.binance.service.TradingWebSocketHandler] [] Error establishing websocket for: tradeUrl, exception: null 
+2025-03-28 17:43:01 INFO  [com.ndlabs.binance.service.TradingWebSocketHandler] [instanceName=service1, pair=bnbusdt] handling trading data: 4749038460 

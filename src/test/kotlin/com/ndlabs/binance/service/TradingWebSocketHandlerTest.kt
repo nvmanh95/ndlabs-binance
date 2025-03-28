@@ -17,10 +17,12 @@ import java.net.SocketTimeoutException
 class TradingWebSocketHandlerTest : ShouldSpec({
 
     val url = "tradeUrl"
+    val pair = "bnbusdt"
+    val podName = "service1"
     val client = mockk<WebSocketClient>()
     val objectMapper = jacksonObjectMapper()
     val processor = mockk<TradingProcessor>()
-    val testInstance = TradingWebSocketHandler(url, objectMapper, client, processor)
+    val testInstance = TradingWebSocketHandler(url, pair, podName, objectMapper, client, processor)
 
     should("able to establish connection to socket") {
         //given

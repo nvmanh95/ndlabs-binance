@@ -11,6 +11,7 @@ import org.springframework.kafka.annotation.EnableKafka
 import org.springframework.kafka.core.DefaultKafkaProducerFactory
 import org.springframework.kafka.core.KafkaTemplate
 import org.springframework.kafka.core.ProducerFactory
+import kotlin.math.truncate
 
 
 @EnableKafka
@@ -19,6 +20,7 @@ class KafkaConfiguration {
     class KafkaConfig {
         var binanceTradeTopic: String = ""
         var boostrapServer: String = ""
+        var enableIdempotenceConfig: Boolean = true
     }
 
     @Bean
@@ -33,6 +35,7 @@ class KafkaConfiguration {
         conf[ProducerConfig.BOOTSTRAP_SERVERS_CONFIG] = kafkaConfig.boostrapServer
         conf[ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG] = StringSerializer::class.java
         conf[ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG] = JsonSerializer::class.java
+        conf[ProducerConfig.ENABLE_IDEMPOTENCE_CONFIG] = kafkaConfig.enableIdempotenceConfig
 
         return DefaultKafkaProducerFactory(conf)
     }
